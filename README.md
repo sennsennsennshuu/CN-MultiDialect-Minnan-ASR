@@ -10,11 +10,11 @@
 - `metadata/`：交付状态、对比结果和 SABE release 清单。
 - `release-manifest.json`：原始候选目录的文件数、大小和 SHA256。
 - `SHA256SUMS.txt`：逐文件完整性清单。
-- `LICENSE.md`、`NOTICE.md`：上游 ASR 基座及 Apache-2.0 说明。
+- `LICENSE.md`、`NOTICE.md`：上游 ASR 基座及 Apache-2.0 说明。\n- `adapter/adapter_config.json`、`adapter/run_identity.json`：LoRA 配置和运行身份。\n- `adapter/WEIGHTS.md`：LoRA 二进制权重的大小、SHA256 和外部存放说明。
 
 ## 大文件说明
 
-GitHub 仓库只包含 `adapter/` 中的 LoRA 权重与配置，以及评估和完整性元数据。完整 `merged/`、ONNX、GGUF 和其他推理文件由维护者另行上传百度网盘；原始候选目录仍由 `SHA256SUMS.txt` 绑定。GitHub 单个 Release 资产必须小于 2 GiB，因此 4 GiB 级 GGUF 也不适合作为单一 GitHub 资产。
+GitHub 仓库包含 LoRA 配置、运行身份、评估和完整性元数据；70.97 MB 的 `adapter_model.safetensors` 二进制权重暂未通过 GitHub 插件上传，权重校验信息见 `adapter/WEIGHTS.md`。完整 `merged/`、ONNX、GGUF 和其他推理文件由维护者另行上传百度网盘；原始候选目录仍由 `SHA256SUMS.txt` 绑定。GitHub 单个 Release 资产必须小于 2 GiB，因此 4 GiB 级 GGUF 也不适合作为单一 GitHub 资产。
 
 ## 基座
 
