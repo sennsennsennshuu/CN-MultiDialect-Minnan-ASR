@@ -1,0 +1,1030 @@
+{
+  "status": "verified_with_probe_warning",
+  "selected_additional_step": 32,
+  "training_finished": {
+    "step": 64,
+    "max_steps": 64,
+    "best_score": 0.08977641577710221,
+    "best_additional_step": 32,
+    "baseline_retained": false,
+    "old_steps": 1743,
+    "selection_policy": "unseen_anchor_targeted_score_with_retention_guard"
+  },
+  "baseline": {
+    "raw": {
+      "overall": {
+        "count": 3000,
+        "syllable_error_rate": 0.012467503424370335,
+        "cer": 0.00462153384961279,
+        "exact_accuracy": 0.8813333333333333,
+        "format_error_rate": 0.0,
+        "truncation_rate": 0.0,
+        "syllable_edits": 446,
+        "reference_syllables": 35773
+      },
+      "leku": {
+        "count": 1774,
+        "syllable_error_rate": 0.011696969696969697,
+        "cer": 0.004349556791813512,
+        "exact_accuracy": 0.8320180383314544,
+        "format_error_rate": 0.0,
+        "truncation_rate": 0.0,
+        "syllable_edits": 386,
+        "reference_syllables": 33000
+      },
+      "sutiau": {
+        "count": 1226,
+        "syllable_error_rate": 0.02163721601153985,
+        "cer": 0.007705008255365988,
+        "exact_accuracy": 0.9526916802610114,
+        "format_error_rate": 0.0,
+        "truncation_rate": 0.0,
+        "syllable_edits": 60,
+        "reference_syllables": 2773
+      },
+      "selection_score": 0.016667092854254772
+    },
+    "postprocessed": {
+      "overall": {
+        "count": 3000,
+        "syllable_error_rate": 0.012467503424370335,
+        "cer": 0.00462153384961279,
+        "exact_accuracy": 0.8813333333333333,
+        "format_error_rate": 0.0,
+        "truncation_rate": 0.0,
+        "syllable_edits": 446,
+        "reference_syllables": 35773
+      },
+      "leku": {
+        "count": 1774,
+        "syllable_error_rate": 0.011696969696969697,
+        "cer": 0.004349556791813512,
+        "exact_accuracy": 0.8320180383314544,
+        "format_error_rate": 0.0,
+        "truncation_rate": 0.0,
+        "syllable_edits": 386,
+        "reference_syllables": 33000
+      },
+      "sutiau": {
+        "count": 1226,
+        "syllable_error_rate": 0.02163721601153985,
+        "cer": 0.007705008255365988,
+        "exact_accuracy": 0.9526916802610114,
+        "format_error_rate": 0.0,
+        "truncation_rate": 0.0,
+        "syllable_edits": 60,
+        "reference_syllables": 2773
+      },
+      "selection_score": 0.016667092854254772
+    },
+    "loss": 0.021031500769443684,
+    "loss_tokens": 70335,
+    "perturb": false,
+    "targeted": {
+      "all": {
+        "overall": {
+          "count": 3000,
+          "syllable_error_rate": 0.012467503424370335,
+          "cer": 0.00462153384961279,
+          "exact_accuracy": 0.8813333333333333,
+          "format_error_rate": 0.0,
+          "truncation_rate": 0.0,
+          "syllable_edits": 446,
+          "reference_syllables": 35773
+        },
+        "h": {
+          "reference": 3328,
+          "wrong": 119,
+          "false_positive": 103,
+          "error_rate": 0.06670673076923077
+        },
+        "nasal": {
+          "reference": 2497,
+          "wrong": 27,
+          "false_positive": 12,
+          "error_rate": 0.015618742490989187
+        },
+        "coda": {
+          "reference": 11519,
+          "wrong": 116,
+          "false_positive": 21,
+          "error_rate": 0.01189339352374338
+        },
+        "target_score": 0.04013124842503028
+      },
+      "unseen_anchor": {
+        "overall": {
+          "count": 1939,
+          "syllable_error_rate": 0.022899897970751617,
+          "cer": 0.00852601156069364,
+          "exact_accuracy": 0.9133574007220217,
+          "format_error_rate": 0.0,
+          "truncation_rate": 0.0,
+          "syllable_edits": 202,
+          "reference_syllables": 8821
+        },
+        "h": {
+          "reference": 627,
+          "wrong": 53,
+          "false_positive": 48,
+          "error_rate": 0.16108452950558214
+        },
+        "nasal": {
+          "reference": 659,
+          "wrong": 19,
+          "false_positive": 7,
+          "error_rate": 0.03945371775417299
+        },
+        "coda": {
+          "reference": 2940,
+          "wrong": 48,
+          "false_positive": 11,
+          "error_rate": 0.020068027210884354
+        },
+        "target_score": 0.09487819708087104
+      },
+      "previously_trained_replacement": {
+        "overall": {
+          "count": 1061,
+          "syllable_error_rate": 0.009053131493024636,
+          "cer": 0.0033410738827543717,
+          "exact_accuracy": 0.822808671065033,
+          "format_error_rate": 0.0,
+          "truncation_rate": 0.0,
+          "syllable_edits": 244,
+          "reference_syllables": 26952
+        },
+        "h": {
+          "reference": 2701,
+          "wrong": 66,
+          "false_positive": 55,
+          "error_rate": 0.04479822288041466
+        },
+        "nasal": {
+          "reference": 1838,
+          "wrong": 8,
+          "false_positive": 5,
+          "error_rate": 0.007072905331882481
+        },
+        "coda": {
+          "reference": 8579,
+          "wrong": 68,
+          "false_positive": 10,
+          "error_rate": 0.009091968760927847
+        },
+        "target_score": 0.0265354575446767
+      },
+      "short_h": {
+        "overall": {
+          "count": 1580,
+          "syllable_error_rate": 0.02872444011684518,
+          "cer": 0.010473588342440802,
+          "exact_accuracy": 0.9348101265822785,
+          "format_error_rate": 0.0,
+          "truncation_rate": 0.0,
+          "syllable_edits": 118,
+          "reference_syllables": 4108
+        },
+        "h": {
+          "reference": 209,
+          "wrong": 34,
+          "false_positive": 33,
+          "error_rate": 0.32057416267942584
+        },
+        "nasal": {
+          "reference": 309,
+          "wrong": 11,
+          "false_positive": 1,
+          "error_rate": 0.038834951456310676
+        },
+        "coda": {
+          "reference": 1493,
+          "wrong": 26,
+          "false_positive": 4,
+          "error_rate": 0.020093770931011386
+        },
+        "target_score": 0.17537680328815353
+      }
+    },
+    "unseen_anchor_count": 1939,
+    "validation_previously_trained_count": 1061
+  },
+  "candidate": {
+    "raw": {
+      "overall": {
+        "count": 3000,
+        "syllable_error_rate": 0.012299779163055935,
+        "cer": 0.004568002569501445,
+        "exact_accuracy": 0.8836666666666667,
+        "format_error_rate": 0.0,
+        "truncation_rate": 0.0,
+        "syllable_edits": 440,
+        "reference_syllables": 35773
+      },
+      "leku": {
+        "count": 1774,
+        "syllable_error_rate": 0.011515151515151515,
+        "cer": 0.00429130379906601,
+        "exact_accuracy": 0.8359639233370914,
+        "format_error_rate": 0.0,
+        "truncation_rate": 0.0,
+        "syllable_edits": 380,
+        "reference_syllables": 33000
+      },
+      "sutiau": {
+        "count": 1226,
+        "syllable_error_rate": 0.02163721601153985,
+        "cer": 0.007705008255365988,
+        "exact_accuracy": 0.9526916802610114,
+        "format_error_rate": 0.0,
+        "truncation_rate": 0.0,
+        "syllable_edits": 60,
+        "reference_syllables": 2773
+      },
+      "selection_score": 0.016576183763345683
+    },
+    "postprocessed": {
+      "overall": {
+        "count": 3000,
+        "syllable_error_rate": 0.012299779163055935,
+        "cer": 0.004568002569501445,
+        "exact_accuracy": 0.8836666666666667,
+        "format_error_rate": 0.0,
+        "truncation_rate": 0.0,
+        "syllable_edits": 440,
+        "reference_syllables": 35773
+      },
+      "leku": {
+        "count": 1774,
+        "syllable_error_rate": 0.011515151515151515,
+        "cer": 0.00429130379906601,
+        "exact_accuracy": 0.8359639233370914,
+        "format_error_rate": 0.0,
+        "truncation_rate": 0.0,
+        "syllable_edits": 380,
+        "reference_syllables": 33000
+      },
+      "sutiau": {
+        "count": 1226,
+        "syllable_error_rate": 0.02163721601153985,
+        "cer": 0.007705008255365988,
+        "exact_accuracy": 0.9526916802610114,
+        "format_error_rate": 0.0,
+        "truncation_rate": 0.0,
+        "syllable_edits": 60,
+        "reference_syllables": 2773
+      },
+      "selection_score": 0.016576183763345683
+    },
+    "loss": 0.020986636688218676,
+    "loss_tokens": 70335,
+    "perturb": false,
+    "targeted": {
+      "all": {
+        "overall": {
+          "count": 3000,
+          "syllable_error_rate": 0.012299779163055935,
+          "cer": 0.004568002569501445,
+          "exact_accuracy": 0.8836666666666667,
+          "format_error_rate": 0.0,
+          "truncation_rate": 0.0,
+          "syllable_edits": 440,
+          "reference_syllables": 35773
+        },
+        "h": {
+          "reference": 3328,
+          "wrong": 121,
+          "false_positive": 103,
+          "error_rate": 0.0673076923076923
+        },
+        "nasal": {
+          "reference": 2497,
+          "wrong": 25,
+          "false_positive": 11,
+          "error_rate": 0.014417300760913096
+        },
+        "coda": {
+          "reference": 11519,
+          "wrong": 110,
+          "false_positive": 22,
+          "error_rate": 0.011459328066672454
+        },
+        "target_score": 0.04010117239048803
+      },
+      "unseen_anchor": {
+        "overall": {
+          "count": 1939,
+          "syllable_error_rate": 0.022333068813059742,
+          "cer": 0.008236994219653179,
+          "exact_accuracy": 0.9159360495100567,
+          "format_error_rate": 0.0,
+          "truncation_rate": 0.0,
+          "syllable_edits": 197,
+          "reference_syllables": 8821
+        },
+        "h": {
+          "reference": 627,
+          "wrong": 54,
+          "false_positive": 44,
+          "error_rate": 0.15629984051036683
+        },
+        "nasal": {
+          "reference": 659,
+          "wrong": 17,
+          "false_positive": 6,
+          "error_rate": 0.03490136570561457
+        },
+        "coda": {
+          "reference": 2940,
+          "wrong": 45,
+          "false_positive": 12,
+          "error_rate": 0.019387755102040816
+        },
+        "target_score": 0.0913883169835714
+      },
+      "previously_trained_replacement": {
+        "overall": {
+          "count": 1061,
+          "syllable_error_rate": 0.009016028495102404,
+          "cer": 0.0033647694422065306,
+          "exact_accuracy": 0.824693685202639,
+          "format_error_rate": 0.0,
+          "truncation_rate": 0.0,
+          "syllable_edits": 243,
+          "reference_syllables": 26952
+        },
+        "h": {
+          "reference": 2701,
+          "wrong": 67,
+          "false_positive": 59,
+          "error_rate": 0.04664938911514254
+        },
+        "nasal": {
+          "reference": 1838,
+          "wrong": 8,
+          "false_positive": 5,
+          "error_rate": 0.007072905331882481
+        },
+        "coda": {
+          "reference": 8579,
+          "wrong": 65,
+          "false_positive": 10,
+          "error_rate": 0.008742277654738315
+        },
+        "target_score": 0.027403021546423875
+      },
+      "short_h": {
+        "overall": {
+          "count": 1580,
+          "syllable_error_rate": 0.02872444011684518,
+          "cer": 0.010397692774741955,
+          "exact_accuracy": 0.9348101265822785,
+          "format_error_rate": 0.0,
+          "truncation_rate": 0.0,
+          "syllable_edits": 118,
+          "reference_syllables": 4108
+        },
+        "h": {
+          "reference": 209,
+          "wrong": 36,
+          "false_positive": 31,
+          "error_rate": 0.32057416267942584
+        },
+        "nasal": {
+          "reference": 309,
+          "wrong": 10,
+          "false_positive": 1,
+          "error_rate": 0.03559870550161812
+        },
+        "coda": {
+          "reference": 1493,
+          "wrong": 25,
+          "false_positive": 5,
+          "error_rate": 0.020093770931011386
+        },
+        "target_score": 0.17472955409721502
+      }
+    },
+    "unseen_anchor_count": 1939,
+    "validation_previously_trained_count": 1061
+  },
+  "training_baseline": {
+    "raw": {
+      "overall": {
+        "count": 3000,
+        "syllable_error_rate": 0.012467503424370335,
+        "cer": 0.004612611969594233,
+        "exact_accuracy": 0.8813333333333333,
+        "format_error_rate": 0.0,
+        "truncation_rate": 0.0,
+        "syllable_edits": 446,
+        "reference_syllables": 35773
+      },
+      "leku": {
+        "count": 1774,
+        "syllable_error_rate": 0.011757575757575758,
+        "cer": 0.00436897445606268,
+        "exact_accuracy": 0.830890642615558,
+        "format_error_rate": 0.0,
+        "truncation_rate": 0.0,
+        "syllable_edits": 388,
+        "reference_syllables": 33000
+      },
+      "sutiau": {
+        "count": 1226,
+        "syllable_error_rate": 0.020915975477821855,
+        "cer": 0.007374793615850302,
+        "exact_accuracy": 0.9543230016313213,
+        "format_error_rate": 0.0,
+        "truncation_rate": 0.0,
+        "syllable_edits": 58,
+        "reference_syllables": 2773
+      },
+      "selection_score": 0.016336775617698807
+    },
+    "postprocessed": {
+      "overall": {
+        "count": 3000,
+        "syllable_error_rate": 0.012467503424370335,
+        "cer": 0.004612611969594233,
+        "exact_accuracy": 0.8813333333333333,
+        "format_error_rate": 0.0,
+        "truncation_rate": 0.0,
+        "syllable_edits": 446,
+        "reference_syllables": 35773
+      },
+      "leku": {
+        "count": 1774,
+        "syllable_error_rate": 0.011757575757575758,
+        "cer": 0.00436897445606268,
+        "exact_accuracy": 0.830890642615558,
+        "format_error_rate": 0.0,
+        "truncation_rate": 0.0,
+        "syllable_edits": 388,
+        "reference_syllables": 33000
+      },
+      "sutiau": {
+        "count": 1226,
+        "syllable_error_rate": 0.020915975477821855,
+        "cer": 0.007374793615850302,
+        "exact_accuracy": 0.9543230016313213,
+        "format_error_rate": 0.0,
+        "truncation_rate": 0.0,
+        "syllable_edits": 58,
+        "reference_syllables": 2773
+      },
+      "selection_score": 0.016336775617698807
+    },
+    "loss": 0.021013963719314965,
+    "loss_tokens": 70335,
+    "perturb": false,
+    "targeted": {
+      "all": {
+        "overall": {
+          "count": 3000,
+          "syllable_error_rate": 0.012467503424370335,
+          "cer": 0.004612611969594233,
+          "exact_accuracy": 0.8813333333333333,
+          "format_error_rate": 0.0,
+          "truncation_rate": 0.0,
+          "syllable_edits": 446,
+          "reference_syllables": 35773
+        },
+        "h": {
+          "reference": 3328,
+          "wrong": 118,
+          "false_positive": 103,
+          "error_rate": 0.06640625
+        },
+        "nasal": {
+          "reference": 2497,
+          "wrong": 27,
+          "false_positive": 12,
+          "error_rate": 0.015618742490989187
+        },
+        "coda": {
+          "reference": 11519,
+          "wrong": 116,
+          "false_positive": 21,
+          "error_rate": 0.01189339352374338
+        },
+        "target_score": 0.03998100804041489
+      },
+      "unseen_anchor": {
+        "overall": {
+          "count": 1939,
+          "syllable_error_rate": 0.022899897970751617,
+          "cer": 0.008489884393063583,
+          "exact_accuracy": 0.9133574007220217,
+          "format_error_rate": 0.0,
+          "truncation_rate": 0.0,
+          "syllable_edits": 202,
+          "reference_syllables": 8821
+        },
+        "h": {
+          "reference": 627,
+          "wrong": 52,
+          "false_positive": 48,
+          "error_rate": 0.1594896331738437
+        },
+        "nasal": {
+          "reference": 659,
+          "wrong": 19,
+          "false_positive": 7,
+          "error_rate": 0.03945371775417299
+        },
+        "coda": {
+          "reference": 2940,
+          "wrong": 48,
+          "false_positive": 11,
+          "error_rate": 0.020068027210884354
+        },
+        "target_score": 0.09408074891500183
+      },
+      "previously_trained_replacement": {
+        "overall": {
+          "count": 1061,
+          "syllable_error_rate": 0.009053131493024636,
+          "cer": 0.0033410738827543717,
+          "exact_accuracy": 0.822808671065033,
+          "format_error_rate": 0.0,
+          "truncation_rate": 0.0,
+          "syllable_edits": 244,
+          "reference_syllables": 26952
+        },
+        "h": {
+          "reference": 2701,
+          "wrong": 66,
+          "false_positive": 55,
+          "error_rate": 0.04479822288041466
+        },
+        "nasal": {
+          "reference": 1838,
+          "wrong": 8,
+          "false_positive": 5,
+          "error_rate": 0.007072905331882481
+        },
+        "coda": {
+          "reference": 8579,
+          "wrong": 68,
+          "false_positive": 10,
+          "error_rate": 0.009091968760927847
+        },
+        "target_score": 0.0265354575446767
+      },
+      "short_h": {
+        "overall": {
+          "count": 1580,
+          "syllable_error_rate": 0.028481012658227847,
+          "cer": 0.010321797207043109,
+          "exact_accuracy": 0.9354430379746835,
+          "format_error_rate": 0.0,
+          "truncation_rate": 0.0,
+          "syllable_edits": 117,
+          "reference_syllables": 4108
+        },
+        "h": {
+          "reference": 209,
+          "wrong": 33,
+          "false_positive": 33,
+          "error_rate": 0.3157894736842105
+        },
+        "nasal": {
+          "reference": 309,
+          "wrong": 11,
+          "false_positive": 1,
+          "error_rate": 0.038834951456310676
+        },
+        "coda": {
+          "reference": 1493,
+          "wrong": 25,
+          "false_positive": 4,
+          "error_rate": 0.01942397856664434
+        },
+        "target_score": 0.1728474758170982
+      }
+    },
+    "validation_previously_trained_count": 1061,
+    "unseen_anchor_count": 1939
+  },
+  "paired_precision": "float32",
+  "paired_eval_batch_size": 8,
+  "training_probe_before": {
+    "raw": {
+      "overall": {
+        "count": 256,
+        "syllable_error_rate": 0.03982930298719772,
+        "cer": 0.015251503152954978,
+        "exact_accuracy": 0.75,
+        "format_error_rate": 0.0,
+        "truncation_rate": 0.0,
+        "syllable_edits": 84,
+        "reference_syllables": 2109
+      },
+      "leku": {
+        "count": 132,
+        "syllable_error_rate": 0.03222282905516111,
+        "cer": 0.01272133402097301,
+        "exact_accuracy": 0.6590909090909091,
+        "format_error_rate": 0.0,
+        "truncation_rate": 0.0,
+        "syllable_edits": 59,
+        "reference_syllables": 1831
+      },
+      "sutiau": {
+        "count": 124,
+        "syllable_error_rate": 0.08992805755395683,
+        "cer": 0.029940119760479042,
+        "exact_accuracy": 0.8467741935483871,
+        "format_error_rate": 0.0,
+        "truncation_rate": 0.0,
+        "syllable_edits": 25,
+        "reference_syllables": 278
+      },
+      "selection_score": 0.06107544330455897
+    },
+    "postprocessed": {
+      "overall": {
+        "count": 256,
+        "syllable_error_rate": 0.03982930298719772,
+        "cer": 0.015251503152954978,
+        "exact_accuracy": 0.75,
+        "format_error_rate": 0.0,
+        "truncation_rate": 0.0,
+        "syllable_edits": 84,
+        "reference_syllables": 2109
+      },
+      "leku": {
+        "count": 132,
+        "syllable_error_rate": 0.03222282905516111,
+        "cer": 0.01272133402097301,
+        "exact_accuracy": 0.6590909090909091,
+        "format_error_rate": 0.0,
+        "truncation_rate": 0.0,
+        "syllable_edits": 59,
+        "reference_syllables": 1831
+      },
+      "sutiau": {
+        "count": 124,
+        "syllable_error_rate": 0.08992805755395683,
+        "cer": 0.029940119760479042,
+        "exact_accuracy": 0.8467741935483871,
+        "format_error_rate": 0.0,
+        "truncation_rate": 0.0,
+        "syllable_edits": 25,
+        "reference_syllables": 278
+      },
+      "selection_score": 0.06107544330455897
+    },
+    "loss": 0.0703491405591851,
+    "loss_tokens": 4696,
+    "perturb": false,
+    "targeted": {
+      "overall": {
+        "count": 256,
+        "syllable_error_rate": 0.03982930298719772,
+        "cer": 0.015251503152954978,
+        "exact_accuracy": 0.75,
+        "format_error_rate": 0.0,
+        "truncation_rate": 0.0,
+        "syllable_edits": 84,
+        "reference_syllables": 2109
+      },
+      "h": {
+        "reference": 227,
+        "wrong": 24,
+        "false_positive": 22,
+        "error_rate": 0.2026431718061674
+      },
+      "nasal": {
+        "reference": 157,
+        "wrong": 9,
+        "false_positive": 5,
+        "error_rate": 0.08917197452229299
+      },
+      "coda": {
+        "reference": 700,
+        "wrong": 16,
+        "false_positive": 5,
+        "error_rate": 0.03
+      },
+      "target_score": 0.12963037625562196
+    },
+    "is_training_data_not_validation": true
+  },
+  "training_probe_after": {
+    "raw": {
+      "overall": {
+        "count": 256,
+        "syllable_error_rate": 0.03982930298719772,
+        "cer": 0.015398152221733392,
+        "exact_accuracy": 0.7421875,
+        "format_error_rate": 0.0,
+        "truncation_rate": 0.0,
+        "syllable_edits": 84,
+        "reference_syllables": 2109
+      },
+      "leku": {
+        "count": 132,
+        "syllable_error_rate": 0.031676679410158386,
+        "cer": 0.012549424101770672,
+        "exact_accuracy": 0.6515151515151515,
+        "format_error_rate": 0.0,
+        "truncation_rate": 0.0,
+        "syllable_edits": 58,
+        "reference_syllables": 1831
+      },
+      "sutiau": {
+        "count": 124,
+        "syllable_error_rate": 0.09352517985611511,
+        "cer": 0.031936127744510975,
+        "exact_accuracy": 0.8387096774193549,
+        "format_error_rate": 0.0,
+        "truncation_rate": 0.0,
+        "syllable_edits": 26,
+        "reference_syllables": 278
+      },
+      "selection_score": 0.06260092963313675
+    },
+    "postprocessed": {
+      "overall": {
+        "count": 256,
+        "syllable_error_rate": 0.03982930298719772,
+        "cer": 0.015398152221733392,
+        "exact_accuracy": 0.7421875,
+        "format_error_rate": 0.0,
+        "truncation_rate": 0.0,
+        "syllable_edits": 84,
+        "reference_syllables": 2109
+      },
+      "leku": {
+        "count": 132,
+        "syllable_error_rate": 0.031676679410158386,
+        "cer": 0.012549424101770672,
+        "exact_accuracy": 0.6515151515151515,
+        "format_error_rate": 0.0,
+        "truncation_rate": 0.0,
+        "syllable_edits": 58,
+        "reference_syllables": 1831
+      },
+      "sutiau": {
+        "count": 124,
+        "syllable_error_rate": 0.09352517985611511,
+        "cer": 0.031936127744510975,
+        "exact_accuracy": 0.8387096774193549,
+        "format_error_rate": 0.0,
+        "truncation_rate": 0.0,
+        "syllable_edits": 26,
+        "reference_syllables": 278
+      },
+      "selection_score": 0.06260092963313675
+    },
+    "loss": 0.06913671877355754,
+    "loss_tokens": 4696,
+    "perturb": false,
+    "targeted": {
+      "overall": {
+        "count": 256,
+        "syllable_error_rate": 0.03982930298719772,
+        "cer": 0.015398152221733392,
+        "exact_accuracy": 0.7421875,
+        "format_error_rate": 0.0,
+        "truncation_rate": 0.0,
+        "syllable_edits": 84,
+        "reference_syllables": 2109
+      },
+      "h": {
+        "reference": 227,
+        "wrong": 26,
+        "false_positive": 22,
+        "error_rate": 0.21145374449339208
+      },
+      "nasal": {
+        "reference": 157,
+        "wrong": 10,
+        "false_positive": 6,
+        "error_rate": 0.10191082802547771
+      },
+      "coda": {
+        "reference": 700,
+        "wrong": 15,
+        "false_positive": 5,
+        "error_rate": 0.02857142857142857
+      },
+      "target_score": 0.13636914758558552
+    },
+    "is_training_data_not_validation": true
+  },
+  "training_probe_is_not_validation": true,
+  "validation_composition_changed": true,
+  "current_round_guard_passed": true,
+  "targeted_training_probe_improved": false,
+  "probe_regression_override": true,
+  "additional_full_evaluations": {
+    "original-validation": {
+      "passed": true,
+      "count": 3000,
+      "baseline": {
+        "overall": {
+          "count": 3000,
+          "syllable_error_rate": 0.03241836251774728,
+          "cer": 0.011742811947520238,
+          "exact_accuracy": 0.8603333333333333,
+          "format_error_rate": 0.0,
+          "truncation_rate": 0.0,
+          "syllable_edits": 548,
+          "reference_syllables": 16904
+        },
+        "h": {
+          "reference": 1471,
+          "wrong": 172,
+          "false_positive": 114,
+          "error_rate": 0.19442556084296397
+        },
+        "nasal": {
+          "reference": 1229,
+          "wrong": 43,
+          "false_positive": 27,
+          "error_rate": 0.05695687550854353
+        },
+        "coda": {
+          "reference": 5676,
+          "wrong": 124,
+          "false_positive": 29,
+          "error_rate": 0.026955602536997886
+        },
+        "target_score": 0.11751025028140247
+      },
+      "candidate": {
+        "overall": {
+          "count": 3000,
+          "syllable_error_rate": 0.03194510175106484,
+          "cer": 0.011593933190657858,
+          "exact_accuracy": 0.8606666666666667,
+          "format_error_rate": 0.0,
+          "truncation_rate": 0.0,
+          "syllable_edits": 540,
+          "reference_syllables": 16904
+        },
+        "h": {
+          "reference": 1471,
+          "wrong": 175,
+          "false_positive": 110,
+          "error_rate": 0.1937457511896669
+        },
+        "nasal": {
+          "reference": 1229,
+          "wrong": 42,
+          "false_positive": 28,
+          "error_rate": 0.05695687550854353
+        },
+        "coda": {
+          "reference": 5676,
+          "wrong": 120,
+          "false_positive": 28,
+          "error_rate": 0.026074700493305146
+        },
+        "target_score": 0.11696722103319765
+      },
+      "ser_delta": -0.0004732607666824429,
+      "contains_training_samples": true
+    },
+    "commonvoice-dev": {
+      "passed": true,
+      "count": 1998,
+      "baseline": {
+        "overall": {
+          "count": 1998,
+          "syllable_error_rate": 0.15931642778390298,
+          "cer": 0.06724327991181209,
+          "exact_accuracy": 0.6181181181181181,
+          "format_error_rate": 0.0,
+          "truncation_rate": 0.0,
+          "syllable_edits": 1156,
+          "reference_syllables": 7256
+        },
+        "h": {
+          "reference": 456,
+          "wrong": 153,
+          "false_positive": 194,
+          "error_rate": 0.7609649122807017
+        },
+        "nasal": {
+          "reference": 465,
+          "wrong": 92,
+          "false_positive": 45,
+          "error_rate": 0.2946236559139785
+        },
+        "coda": {
+          "reference": 2739,
+          "wrong": 366,
+          "false_positive": 112,
+          "error_rate": 0.17451624680540342
+        },
+        "target_score": 0.48948208851154246
+      },
+      "candidate": {
+        "overall": {
+          "count": 1998,
+          "syllable_error_rate": 0.1579382579933848,
+          "cer": 0.06673450351903672,
+          "exact_accuracy": 0.6211211211211212,
+          "format_error_rate": 0.0,
+          "truncation_rate": 0.0,
+          "syllable_edits": 1146,
+          "reference_syllables": 7256
+        },
+        "h": {
+          "reference": 456,
+          "wrong": 152,
+          "false_positive": 187,
+          "error_rate": 0.743421052631579
+        },
+        "nasal": {
+          "reference": 465,
+          "wrong": 92,
+          "false_positive": 47,
+          "error_rate": 0.2989247311827957
+        },
+        "coda": {
+          "reference": 2739,
+          "wrong": 364,
+          "false_positive": 111,
+          "error_rate": 0.17342095655348666
+        },
+        "target_score": 0.48119935473437936
+      },
+      "ser_delta": -0.001378169790518191,
+      "contains_training_samples": false
+    },
+    "commonvoice-test": {
+      "passed": true,
+      "count": 1863,
+      "baseline": {
+        "overall": {
+          "count": 1863,
+          "syllable_error_rate": 0.23556009334889147,
+          "cer": 0.11003367003367004,
+          "exact_accuracy": 0.4777241009125067,
+          "format_error_rate": 0.0,
+          "truncation_rate": 0.0,
+          "syllable_edits": 1615,
+          "reference_syllables": 6856
+        },
+        "h": {
+          "reference": 469,
+          "wrong": 170,
+          "false_positive": 202,
+          "error_rate": 0.7931769722814499
+        },
+        "nasal": {
+          "reference": 468,
+          "wrong": 134,
+          "false_positive": 72,
+          "error_rate": 0.44017094017094016
+        },
+        "coda": {
+          "reference": 2550,
+          "wrong": 601,
+          "false_positive": 165,
+          "error_rate": 0.3003921568627451
+        },
+        "target_score": 0.5650155117066585
+      },
+      "candidate": {
+        "overall": {
+          "count": 1863,
+          "syllable_error_rate": 0.2339556592765461,
+          "cer": 0.10922558922558923,
+          "exact_accuracy": 0.4793344068706388,
+          "format_error_rate": 0.0,
+          "truncation_rate": 0.0,
+          "syllable_edits": 1604,
+          "reference_syllables": 6856
+        },
+        "h": {
+          "reference": 469,
+          "wrong": 173,
+          "false_positive": 190,
+          "error_rate": 0.7739872068230277
+        },
+        "nasal": {
+          "reference": 468,
+          "wrong": 133,
+          "false_positive": 72,
+          "error_rate": 0.43803418803418803
+        },
+        "coda": {
+          "reference": 2550,
+          "wrong": 599,
+          "false_positive": 163,
+          "error_rate": 0.2988235294117647
+        },
+        "target_score": 0.5545173193215982
+      },
+      "ser_delta": -0.0016044340723453676,
+      "contains_training_samples": false
+    }
+  }
+}
+
