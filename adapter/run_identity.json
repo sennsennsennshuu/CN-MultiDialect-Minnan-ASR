@@ -1,0 +1,44 @@
+{
+  "base": {
+    "model": "asr/CN-MultiDialect-ASR",
+    "sha256": "57fd3f7928715dba1b6078ec6b3a94baa023eaae5e6788512bf7529e1376522e",
+    "files": {
+      "added_tokens.json": "de40784677cbd1843cabe5fbee078c7e042cd0b62155f0810af5a13842e5722a",
+      "args.json": "77d1b874720af04ff0cc240240f088da396323719f726a30b9cc4c28e31e75f7",
+      "chat_template.jinja": "a103579066642f0e035873f12de6046a1bbc909a7a2833732fda9fd6bc7c528d",
+      "config.json": "8f868e5d678a642746dd564af0ebefa5d844cc9c4887fb40bb2de17f70cfdab7",
+      "configuration.json": "625c81a3527ce4f7a739854b431f380a987dc4af5e07e099b568e50e2e3b248c",
+      "generation_config.json": "557084ddcc2c354fb22d57eff2a2eb33e1defeae113f30ee79d7c55b97647d77",
+      "merges.txt": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+      "model.safetensors": "dc75555d5558ebcdf84a6f4121bf7613e22d251d1d0110b35fbdc5054643bc0a",
+      "preprocessor_config.json": "45e120a4eda2c20c5d7f2ea9354e63536bf35e27aa573fb7cdf78017b378770d",
+      "special_tokens_map.json": "7b376c510ccf9d88bb9bbee41dfc5052122e16e0dec1124a8d8983c59259a9f3",
+      "tokenizer.json": "bd2a97b55c8f7f9c328c73ee9b9178771037e9f566dfca8e238a063d41cbac92",
+      "tokenizer_config.json": "784c92a0a81fbbc440afb89842f8c16c8da28dfb9ff381fcea585b84f4eed7d1",
+      "trainer_state.json": "92509fbd3cb912d8d1d3cfc785d84e5d86a40cfbc8629dac6ac52a423f6bd2f8",
+      "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+    }
+  },
+  "data_sha256": "b39d82ce6d89ba1f74c36c0af05db2062c91b4d35569cd0e18a6e0566586c952",
+  "config_sha256": "47e0f6f86efa114c5a1c15d760673f0276b2eeb98a2a4f1aca153bdc492e5c81",
+  "versions": {
+    "torch": "2.8.0",
+    "transformers": "4.57.6",
+    "qwen-asr": "0.0.6",
+    "peft": "0.18.0",
+    "accelerate": "1.12.0",
+    "numpy": "2.4.4",
+    "scipy": "1.17.1",
+    "soundfile": "0.13.1",
+    "librosa": "1.0.0",
+    "safetensors": "0.8.0",
+    "tensorboard": "2.20.0",
+    "qwen-omni-utils": "0.0.9",
+    "huggingface-hub": "0.36.2",
+    "tokenizers": "0.22.2"
+  },
+  "evaluation_original-validation_sha256": "a48c03bd981387bf3a61290cf8580803c70fadaac1a26f2caf1b51066e201429",
+  "evaluation_commonvoice-dev_sha256": "c6cd44d5296c176952e02e6b0372fd824efda1bef2cc4df2115e906ebe0f91b9",
+  "initial_adapter_sha256": "30684dad2a398384f975e49fd83997c7087ae6c352250e9f5fe1d6c0b381fb2a"
+}
+
