@@ -1,0 +1,11 @@
+{
+  "status": "verified",
+  "selected_additional_steps": 32,
+  "optimizer_steps_executed_this_job": 64,
+  "full_validation_count": 3000,
+  "model_construction": "trained_checkpoint",
+  "source_training_steps": 64,
+  "source": "CN-MultiDialect-ASR + previous best LoRA",
+  "release_pending_local_conversion": true
+}
+
